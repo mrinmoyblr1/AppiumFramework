@@ -11,6 +11,7 @@ public class Dependencies {
 		//PageFactory.initElements(driver, this);		
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 		//PageFactory.initElements(driver, this);	
+		
 		// new AppiumFieldDecorator(driver)
 	}
 	@AndroidFindBy(id="android:id/checkbox")
